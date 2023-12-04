@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Athul Studio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>athul studio mususic player</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
+
 <body>
-  <div class="wrapper">
-    <div class="top-bar">
-      <i class="material-icons">expand_more</i>
-      <span>Now Playing</span>
-      <i class="material-icons">more_horiz</i>
-    </div>
-    <div class="img-area">
-      <img src="" alt="">
-    </div>
-    <div class="song-details">
-      <p class="name"></p>
-      <p class="artist"></p>
-    </div>
-    <div class="progress-area">
-      <div class="progress-bar">
-        <audio id="main-audio" src=""></audio>
-      </div>
-      <div class="song-timer">
-        <span class="current-time">0:00</span>
-        <span class="max-duration">0:00</span>
-      </div>
-    </div>
-    <div class="controls">
-      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
-      <i id="prev" class="material-icons">skip_previous</i>
-      <div class="play-pause">
-        <i class="material-icons play">play_arrow</i>
-      </div>
-      <i id="next" class="material-icons">skip_next</i>
-      <i id="more-music" class="material-icons">queue_music</i>
-    </div>
-    <div class="music-list">
-      <div class="header">
-        <div class="row">
-          <i class= "list material-icons">queue_music</i>
-          <span>Music list</span>
+
+    <div class="sidebar">
+        <div class="logo">
+            <a href="">
+                <img src="images/Logo.png" alt="Logo">
+            </a>
         </div>
-        <i id="close" class="material-icons">close</i>
-      </div>
-      <ul>
-      </ul>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="fa fa-home"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="fa fa-search"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
+        </div>
+
+
     </div>
-  </div>
 
-  <script src="music-list.js"></script>
-  <script src="script.js"></script>
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
 
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Login</button>
+            </div>
+        </div>
+
+        <div class="athulstudio-playlists">
+            <h2>athultudio-Playlists</h2>
+
+            <div class="list">
+                <div class="item">
+                    <img src="images/songs1.png" />
+                            <div class="navigation">
+            <ul>
+                <li>
+                    <a href="Home.html">
+                        <span class="fa fa-play"></span>
+                        <span>play</span>
+                    </a>
+                </li>
+<ul>
+                <li>
+                    
+                   
+                    
+                </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            </div>
+
+            <hr>
+        </div>
+
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h6>Preview of athul studio</h6>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+            <button type="button">Sign up free</button>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
